@@ -1,0 +1,28 @@
+.aa{
+    text-decoration: none;
+    display: inline-block;
+    margin:  0 10px;
+    padding: 5px 10px 5px 10px;
+    color:  #FBB710;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+    font-weight: 900;
+}
+.aa .spann{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:#FBB710;
+    z-index: -1;
+    transition:  1s;
+}
+.aa:hover .spann{
+    width: 100%;
+}
+.aa:hover{
+    color: #000;
+    font-weight: 900;
+}
