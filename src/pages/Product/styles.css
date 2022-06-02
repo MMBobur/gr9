@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+}
+
+/* .carousel.carousel-slider {
+  margin: 0px auto;
+  overflow: visible;
+} */
+
+.carousel .slide {
+  color: white;
+  background: rgb(0, 0, 0);
+}
+
+.carousel .slide-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
