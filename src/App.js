@@ -1,10 +1,9 @@
-import './App.css';
-import Home from "./page/Home";
-
+import React from "react";
+import Product from "./pages/Product";
 function App() {
   return (
     <div>
-      APP
+      <Product />
     </div>
   );
 }
