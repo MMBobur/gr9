@@ -4,7 +4,7 @@ import Checkout from "../src/pages/Checkout";
 import { Box, Grid } from "@mui/material";
 function App() {
 	return (
-		<div style={{ display: "flex" }}>
+		<div>
 			<Checkout />
 		</div>
 	);
