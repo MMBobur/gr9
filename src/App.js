@@ -1,13 +1,15 @@
-import "./App.css";
-// import Home from "./page/Home";
+import React from "react";
 import Checkout from "../src/pages/Checkout";
-import { Box, Grid } from "@mui/material";
+import Product from "./pages/Product";
+
 function App() {
-	return (
-		<div>
-			<Checkout />
-		</div>
-	);
+  return (
+    <div>
+      <Product />
+      <Checkout />
+    </div>
+  );
+
 }
 
 export default App;
