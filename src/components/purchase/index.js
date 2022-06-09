@@ -11,7 +11,7 @@ import Button from '@mui/material/Button';
 
 export default function RowAndColumnSpacing() {
   return (
-    <Box sx={{ width: '100%',paddingTop:'7%',paddingBottom:'10%' }}>
+    <Box sx={{ width: '100%',paddingTop:'15%',paddingBottom:'10%' }}>
       <Grid justifyContent='center' container rowSpacing={5} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
         <Grid item xs={12}>
           <Box sx={{textAlign:'center'}} >

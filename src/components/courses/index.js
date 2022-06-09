@@ -22,7 +22,7 @@ import { Autoplay, Pagination } from "swiper";
 
 export default function App() {
   return (
-    <div style={{paddingTop:'7%',background:'#f9f9ff',paddingBottom:'7%',width:'100.6%'}}>
+    <div style={{paddingTop:'7%',background:'#f9f9ff',paddingBottom:'7%',width:'100%'}}>
     <Box sx={{textAlign:'center'}} >
       <Typography sx={{fontSize:'36px',fontWeight:'600'}}>Top Courses That are open for Students</Typography>
       <Typography color='text.secondary' sx={{paddingBottom:'5%'}}>Who are in extremely love with eco friendly system.</Typography>
