@@ -13,15 +13,15 @@ import Footer from "./../../components/Footer";
 function Home() {
   return (
     <div>
-      {/* <Navbar />
-      <Banner /> */}
-      {/* <Travor /> */}
+      <Navbar />
+      <Banner />
+      <Travor />
       <Some />
-      {/* <Purchase />
+      <Purchase />
       <Courses />
       <Download />
       <Readers />
-      <Footer /> */}
+      <Footer />
     </div>
   )
 }
