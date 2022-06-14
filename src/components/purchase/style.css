@@ -1,9 +1,0 @@
-.box1:hover .box2{
-    background: -webkit-linear-gradient(90deg, #f45622 0%, #f53e54 100%);
-}
-.box1:hover .purchase{
-    background: #ca4829;
-}
-.box1:hover{
-    cursor: pointer;
-}
